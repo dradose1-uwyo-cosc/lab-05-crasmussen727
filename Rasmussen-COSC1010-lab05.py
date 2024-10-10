@@ -1,12 +1,10 @@
-# Your Name Here
+# Calvin Rasmussen
 # UWYO COSC 1010
-# Submission Date
+# 10/13/2024
 # Lab 03 
-# Lab Section: 
-# Sources, people worked with, help given to: 
-# your
-# comments
-# here
+# Lab Section: 12
+# Sources, people worked with, help given to: the lectures for if statements and working with lists
+# this was a good chance to use both for loops and if/elif/else statements
 
 max_temps = [
     32, 24, 22, 25, 37, 33, 34, 40, 40, 42,
@@ -121,7 +119,7 @@ for number in numbers:
     elif number>0:
         pos_count=pos_count+1
         print(f"{number} is positive")
-    elif number<0:
+    else:
         neg_count=neg_count+1
         print(f"{number} is negative")
 
